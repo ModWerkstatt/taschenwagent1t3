@@ -1,0 +1,74 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 8.0500001907349, 2, 5.5999999046326, },
+		bbMin = { -8.0500001907349, -2, 2, },
+	},
+	collider = {
+		params = {			
+		},
+		type = "MESH",		
+	},
+	lods = {
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t1_taschenwagen/Zapfen.mtl", },
+						mesh = "vehicle/waggon/t1_taschenwagen/zapfen_40_ft_t1_lod0.msh",
+						name = "zapfen_40_ft_t1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156952, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			}, 
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t1_taschenwagen/Zapfen.mtl", },
+						mesh = "vehicle/waggon/t1_taschenwagen/zapfen_40_ft_t1_lod1.msh",
+						name = "zapfen_40_ft_t1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156952, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,
+			}, 
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t1_taschenwagen/Zapfen.mtl", },
+						mesh = "vehicle/waggon/t1_taschenwagen/zapfen_40_ft_t1_lod2.msh",
+						name = "zapfen_40_ft_t1",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 3.2068374156952, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1973,
+			yearTo = 0,
+		},
+		maintenance = {
+			lifespan = 0,
+			runningCosts = 0,
+		},
+	},
+	version = 1,	
+}
+end

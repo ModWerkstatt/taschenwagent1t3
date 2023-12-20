@@ -1,0 +1,994 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.2033977508545, 1.7296047210693, 6.5974626541138, },
+		bbMin = { -9.2033977508545, -1.7296047210693, 0.22511386871338, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 9.2033977508545, 1.7296047210693, 3.1861743927002, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8299999237061, -0.85000002384186, 1.5299999713898, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8299999237061, 0.85000002384186, 1.5299999713898, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod0.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kupplung_lod0.msh",
+						name = "bandion_mesh_t3_kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod0.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod0.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_halter_lod0.msh",
+						name = "bandion_mesh_t3_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod0.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod0.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod0.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenTank_lod0.msh",
+						name = "bandion_mesh_t3_innenTank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenseite_lod0.msh",
+						name = "bandion_mesh_t3_innenseite",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kegp_lod0.msh",
+						name = "bandion_mesh_t3_kegp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_seilhaken_lod0.msh",
+						name = "bandion_mesh_t3_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_tritt_lod0.msh",
+						name = "bandion_mesh_t3_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_trittBig_lod0.msh",
+						name = "bandion_mesh_t3_trittBig",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bogen_lod0.msh",
+						name = "bandion_mesh_t3_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bedienbar_lod0.msh",
+						name = "bandion_mesh_t3_bedienbar",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hmKeineAhnung_lod0.msh",
+						name = "bandion_mesh_t3_hmKeineAhnung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod0.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_klapp_lod0.msh",
+						name = "bandion_mesh_t3_klapp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dinger_lod0.msh",
+						name = "bandion_mesh_t3_dinger",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_zettel_lod0.msh",
+						name = "bandion_mesh_t3_zettel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hb_lod0.msh",
+						name = "bandion_mesh_t3_hb2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_strebenModern_lod0.msh",
+						name = "bandion_mesh_t3_strebenOld",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_rohre_lod0.msh",
+						name = "bandion_mesh_t3_rohreModern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/handbremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 74,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8299999237061, -0.85000002384186, 1.5299999713898, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -8.8299999237061, 0.85000002384186, 1.5299999713898, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8819999694824, -0.9549999833107, 1.3300000429153, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8819999694824, 0.9549999833107, 1.3300000429153, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod1.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod1.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod1.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_halter_lod1.msh",
+						name = "bandion_mesh_t3_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod1.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod1.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod1.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenTank_lod1.msh",
+						name = "bandion_mesh_t3_innenTank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenseite_lod1.msh",
+						name = "bandion_mesh_t3_innenseite",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kegp_lod1.msh",
+						name = "bandion_mesh_t3_kegp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_seilhaken_lod1.msh",
+						name = "bandion_mesh_t3_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_tritt_lod1.msh",
+						name = "bandion_mesh_t3_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_trittBig_lod1.msh",
+						name = "bandion_mesh_t3_trittBig",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bogen_lod1.msh",
+						name = "bandion_mesh_t3_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod1.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_klapp_lod1.msh",
+						name = "bandion_mesh_t3_klapp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dinger_lod1.msh",
+						name = "bandion_mesh_t3_dinger",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_zettel_lod1.msh",
+						name = "bandion_mesh_t3_zettel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hb_lod1.msh",
+						name = "bandion_mesh_t3_hb2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_strebenModern_lod1.msh",
+						name = "bandion_mesh_t3_strebenOld",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_rohre_lod1.msh",
+						name = "bandion_mesh_t3_rohreModern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 74,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod2.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod2.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod2.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod2.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod2.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod2.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod2.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 650,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod3.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_oebb2.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod3.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/y25_farbig/dg_ba_y25_lss_alt.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 650,
+			visibleTo = 2000,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 2006,
+			yearTo = -1,
+		},
+		cargoSlotProvider = {
+			slots = {
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/stuetzbock.mdl", },
+					randomId = 0,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0.14000000059605, 0, 0, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/zapfen_20ft.mdl", },
+					randomId = 1,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, 2.1600000858307, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/zapfen_20_26ft.mdl", },
+					randomId = 2,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -12.119999885559, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/zapfen_30_20ft.mdl", },
+					randomId = 3,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -7.4000000953674, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/zapfen_30ft.mdl", },
+					randomId = 4,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -10.140000343323, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/zapfen_40ft.mdl", },
+					randomId = 5,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0, 0, -4.9400000572205, 1, },
+				},
+				{
+					group = 0,
+					models = { "vehicle/waggon/t3_taschenwagen/zapfen/stuetzbock_laden.mdl", },
+					randomId = 6,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1.1900000572205, 0, 0, 0, -0.28999999165535, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_20ft/container_20ft_apl.mdl", "asset/container_mw/container_20ft/container_20ft_cai.mdl", "asset/container_mw/container_20ft/container_20ft_china_shipping.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm2.mdl", "asset/container_mw/container_20ft/container_20ft_cosco.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip2.mdl", "asset/container_mw/container_20ft/container_20ft_evergreen.mdl", "asset/container_mw/container_20ft/container_20ft_geseaco.mdl", "asset/container_mw/container_20ft/container_20ft_hamburg_sued.mdl", "asset/container_mw/container_20ft/container_20ft_hanjin.mdl", "asset/container_mw/container_20ft/container_20ft_hapag_lloyd.mdl", "asset/container_mw/container_20ft/container_20ft_hyundai.mdl", "asset/container_mw/container_20ft/container_20ft_maersk.mdl", "asset/container_mw/container_20ft/container_20ft_mol.mdl", "asset/container_mw/container_20ft/container_20ft_msc.mdl", "asset/container_mw/container_20ft/container_20ft_one.mdl", "asset/container_mw/container_20ft/container_20ft_one2.mdl", "asset/container_mw/container_20ft/container_20ft_oocl.mdl", "asset/container_mw/container_20ft/container_20ft_po_nedlloyd.mdl", "asset/container_mw/container_20ft/container_20ft_tex.mdl", "asset/container_mw/container_20ft/container_20ft_triton.mdl", "asset/container_mw/container_20ft/container_20ft_uasc.mdl", "asset/container_mw/container_20ft/container_20ft_yang_ming.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_bruhn.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett2.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett3.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hamburg_sued.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_mol.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_seaco.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_china_shipping.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_eimskip.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_evergreen.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hamburg_sued.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hapag_lloyd.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_maersk.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_mol.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_msc.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_triton.mdl", },
+					randomId = 7,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8699998855591, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_20ft/container_20ft_apl.mdl", "asset/container_mw/container_20ft/container_20ft_cai.mdl", "asset/container_mw/container_20ft/container_20ft_china_shipping.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm2.mdl", "asset/container_mw/container_20ft/container_20ft_cosco.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip2.mdl", "asset/container_mw/container_20ft/container_20ft_evergreen.mdl", "asset/container_mw/container_20ft/container_20ft_geseaco.mdl", "asset/container_mw/container_20ft/container_20ft_hamburg_sued.mdl", "asset/container_mw/container_20ft/container_20ft_hanjin.mdl", "asset/container_mw/container_20ft/container_20ft_hapag_lloyd.mdl", "asset/container_mw/container_20ft/container_20ft_hyundai.mdl", "asset/container_mw/container_20ft/container_20ft_maersk.mdl", "asset/container_mw/container_20ft/container_20ft_mol.mdl", "asset/container_mw/container_20ft/container_20ft_msc.mdl", "asset/container_mw/container_20ft/container_20ft_one.mdl", "asset/container_mw/container_20ft/container_20ft_one2.mdl", "asset/container_mw/container_20ft/container_20ft_oocl.mdl", "asset/container_mw/container_20ft/container_20ft_po_nedlloyd.mdl", "asset/container_mw/container_20ft/container_20ft_tex.mdl", "asset/container_mw/container_20ft/container_20ft_triton.mdl", "asset/container_mw/container_20ft/container_20ft_uasc.mdl", "asset/container_mw/container_20ft/container_20ft_yang_ming.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_bruhn.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett2.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett3.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hamburg_sued.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_mol.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_seaco.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_china_shipping.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_eimskip.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_evergreen.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hamburg_sued.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hapag_lloyd.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_maersk.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_mol.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_msc.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_triton.mdl", },
+					randomId = 8,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9099998474121, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_20ft/container_20ft_apl.mdl", "asset/container_mw/container_20ft/container_20ft_cai.mdl", "asset/container_mw/container_20ft/container_20ft_china_shipping.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm.mdl", "asset/container_mw/container_20ft/container_20ft_cma_cgm2.mdl", "asset/container_mw/container_20ft/container_20ft_cosco.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip.mdl", "asset/container_mw/container_20ft/container_20ft_eimskip2.mdl", "asset/container_mw/container_20ft/container_20ft_evergreen.mdl", "asset/container_mw/container_20ft/container_20ft_geseaco.mdl", "asset/container_mw/container_20ft/container_20ft_hamburg_sued.mdl", "asset/container_mw/container_20ft/container_20ft_hanjin.mdl", "asset/container_mw/container_20ft/container_20ft_hapag_lloyd.mdl", "asset/container_mw/container_20ft/container_20ft_hyundai.mdl", "asset/container_mw/container_20ft/container_20ft_maersk.mdl", "asset/container_mw/container_20ft/container_20ft_mol.mdl", "asset/container_mw/container_20ft/container_20ft_msc.mdl", "asset/container_mw/container_20ft/container_20ft_one.mdl", "asset/container_mw/container_20ft/container_20ft_one2.mdl", "asset/container_mw/container_20ft/container_20ft_oocl.mdl", "asset/container_mw/container_20ft/container_20ft_po_nedlloyd.mdl", "asset/container_mw/container_20ft/container_20ft_tex.mdl", "asset/container_mw/container_20ft/container_20ft_triton.mdl", "asset/container_mw/container_20ft/container_20ft_uasc.mdl", "asset/container_mw/container_20ft/container_20ft_yang_ming.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_bruhn.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_dhl.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett2.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_ett3.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hamburg_sued.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_hanjin.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_maersk.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_mol.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_msc.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_one.mdl", "asset/container_mw/container_20ft_hc/container_20ft_hc_seaco.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_china_shipping.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_eimskip.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_evergreen.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hamburg_sued.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_hapag_lloyd.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_maersk.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_mol.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_msc.mdl", "asset/container_mw/container_20ft_ot/container_20ft_ot_triton.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_dreier.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_dreier2.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_fercam.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_sae.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_sbb.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_terratrans.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_transco.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_translog.mdl", "asset/container_mw/pritsche_26ft/pritsche_26ft_translog2.mdl", "asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_winner.mdl", "asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_sae.mdl", "asset/container_jay/pritschen/pritschenAlt/beladung/pritscheAlt_fercam.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_duvenbeck.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_emons.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_grosse_vehne.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_lit.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_lit2.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_paneuropa.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_planzer.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_planzer2.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_rockwool.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_rot.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_schenker.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_seaco.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_smartrail.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_tfg.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_tfg2.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_weiss.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_wetron.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_wetron2.mdl", "asset/container_mw/pritsche_26ft_hc/pritsche_26ft_hc_wetron3.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_bursped.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_cargoline.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dachser.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dhl.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dhl2.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dpd.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_dreier.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_gls.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_hellmann.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_ids.mdl", "asset/container_mw/wechselbruecke_24ft/wechselbruecke_24ft_schenker.mdl", "asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron.mdl", "asset/container_mw/wechselbruecke_26ft_hc/wechselbruecke_26ft_hc_wetron2.mdl", },
+					randomId = 9,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_30ft/container_30ft_all.mdl", "asset/container_mw/container_30ft/container_30ft_all2.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi2.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi3.mdl", "asset/container_mw/container_30ft/container_30ft_bruhn.mdl", "asset/container_mw/container_30ft/container_30ft_bulkhaul.mdl", "asset/container_mw/container_30ft/container_30ft_bulkhaul2.mdl", "asset/container_mw/container_30ft/container_30ft_delacher.mdl", "asset/container_mw/container_30ft/container_30ft_ewals.mdl", "asset/container_mw/container_30ft/container_30ft_gts.mdl", "asset/container_mw/container_30ft/container_30ft_hoyer.mdl", "asset/container_mw/container_30ft/container_30ft_iff.mdl", "asset/container_mw/container_30ft/container_30ft_move.mdl", "asset/container_mw/container_30ft/container_30ft_move2.mdl", "asset/container_mw/container_30ft/container_30ft_nb.mdl", "asset/container_mw/container_30ft/container_30ft_ubc.mdl", "asset/container_mw/container_30ft/container_30ft_van_den_bosch.mdl", "asset/container_mw/container_30ft/container_30ft_vos.mdl", "asset/container_mw/container_30ft/container_30ft_weiss.mdl", },
+					randomId = 10,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9500000476837, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_30ft/container_30ft_all.mdl", "asset/container_mw/container_30ft/container_30ft_all2.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi2.mdl", "asset/container_mw/container_30ft/container_30ft_bertschi3.mdl", "asset/container_mw/container_30ft/container_30ft_bruhn.mdl", "asset/container_mw/container_30ft/container_30ft_bulkhaul.mdl", "asset/container_mw/container_30ft/container_30ft_bulkhaul2.mdl", "asset/container_mw/container_30ft/container_30ft_delacher.mdl", "asset/container_mw/container_30ft/container_30ft_ewals.mdl", "asset/container_mw/container_30ft/container_30ft_gts.mdl", "asset/container_mw/container_30ft/container_30ft_hoyer.mdl", "asset/container_mw/container_30ft/container_30ft_iff.mdl", "asset/container_mw/container_30ft/container_30ft_move.mdl", "asset/container_mw/container_30ft/container_30ft_move2.mdl", "asset/container_mw/container_30ft/container_30ft_nb.mdl", "asset/container_mw/container_30ft/container_30ft_ubc.mdl", "asset/container_mw/container_30ft/container_30ft_van_den_bosch.mdl", "asset/container_mw/container_30ft/container_30ft_vos.mdl", "asset/container_mw/container_30ft/container_30ft_weiss.mdl", },
+					randomId = 11,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1849999427795, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/container_40ft/container_40ft_apl.mdl", "asset/container_mw/container_40ft/container_40ft_cai.mdl", "asset/container_mw/container_40ft/container_40ft_cai2.mdl", "asset/container_mw/container_40ft/container_40ft_china_shipping.mdl", "asset/container_mw/container_40ft/container_40ft_cma_cgm.mdl", "asset/container_mw/container_40ft/container_40ft_cma_cgm2.mdl", "asset/container_mw/container_40ft/container_40ft_cma_cgm3.mdl", "asset/container_mw/container_40ft/container_40ft_cosco.mdl", "asset/container_mw/container_40ft/container_40ft_db.mdl", "asset/container_mw/container_40ft/container_40ft_dhl.mdl", "asset/container_mw/container_40ft/container_40ft_eimskip.mdl", "asset/container_mw/container_40ft/container_40ft_evergreen.mdl", "asset/container_mw/container_40ft/container_40ft_geseaco.mdl", "asset/container_mw/container_40ft/container_40ft_global_container.mdl", "asset/container_mw/container_40ft/container_40ft_hamburg_sued.mdl", "asset/container_mw/container_40ft/container_40ft_hamburg_sued2.mdl", "asset/container_mw/container_40ft/container_40ft_hanjin.mdl", "asset/container_mw/container_40ft/container_40ft_hapag_lloyd.mdl", "asset/container_mw/container_40ft/container_40ft_hyundai.mdl", "asset/container_mw/container_40ft/container_40ft_maersk.mdl", "asset/container_mw/container_40ft/container_40ft_mol.mdl", "asset/container_mw/container_40ft/container_40ft_msc.mdl", "asset/container_mw/container_40ft/container_40ft_msc2.mdl", "asset/container_mw/container_40ft/container_40ft_one.mdl", "asset/container_mw/container_40ft/container_40ft_one2.mdl", "asset/container_mw/container_40ft/container_40ft_oocl.mdl", "asset/container_mw/container_40ft/container_40ft_po_nedlloyd.mdl", "asset/container_mw/container_40ft/container_40ft_tex.mdl", "asset/container_mw/container_40ft/container_40ft_triton.mdl", "asset/container_mw/container_40ft/container_40ft_uasc.mdl", "asset/container_mw/container_40ft/container_40ft_yang_ming.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_apl.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cai.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cai2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_china_shipping.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cma_cgm.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cma_cgm2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cma_cgm3.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_cosco.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_dhl.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_dhl2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_eimskip.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_eimskip2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_eucon.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_evergreen.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_geseaco.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_hamburg_sued.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_hamburg_sued2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_hanjin.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_hapag_lloyd.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_hyundai.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_maersk.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_mol.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_msc.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_msc2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_one.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_one2.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_oocl.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_po_nedlloyd.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_tex.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_triton.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_uasc.mdl", "asset/container_mw/container_40ft_hc/container_40ft_hc_yang_ming.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_evergreen.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_hamburg_sued.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_hapag_lloyd.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_maersk.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_msc.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_po.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_po_nedlloyd.mdl", "asset/container_mw/container_40ft_ot/container_40ft_ot_yang_ming.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ambrogio.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_cai.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_cai2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_cldn.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_dhl.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_dhl2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_dsv.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_dsv2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ecs.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ecs2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ecs3.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ekol.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ekol2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ekol3.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_eucon.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_ferrymasters3.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gartner.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_geest.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_geex.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gts.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gts2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gts3.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gts4.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_gts5.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_hessers.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_hhbode.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_jan_de_rijk.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_move.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_msc.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_norfolkline.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_norfolkline2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_nothegger.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_richard_kempers.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_sarp.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_sarp2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_transfennica.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_transfennica2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_triton.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_triton2.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_tschibo.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_unit45.mdl", "asset/container_mw/container_45ft_hc/container_45ft_hc_westerman.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_alberti.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_bas.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_ewals.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_fercam.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_move.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_move2.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_move3.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_nothegger.mdl", "asset/container_mw/pritsche_45ft/pritsche_45ft_walter.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ambrogio.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ambrogio2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_crossrail.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_dfds.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ekol.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_emons.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_ferrymasters.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_gts.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_gts2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_magetra.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_magetra2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_norfolkline.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_norfolkline2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_nothegger.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_nothegger2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_spedirail.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_spedirail2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_tts2.mdl", "asset/container_mw/pritsche_45ft_hc/pritsche_45ft_hc_wetron.mdl", },
+					randomId = 12,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.34999999403954, 0, 1.25, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/trailer_mw/krone_profiliner/krone_trailer_ansorge.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_arcese.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_cldn.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_dsv.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_ewals.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_fercam.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_ferrymasters.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_fixemer.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_gruber.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_hangartner.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_heisterkamp2.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_hhbode.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_iemoli.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_ikg.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_jost.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_lauritzen.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_nothegger.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_paneuropa.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_sae.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_schenker.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_transco.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_walter.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_wenzel.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_wetron.mdl", "asset/trailer_mw/krone_profiliner/krone_trailer_winner.mdl", },
+					randomId = 13,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.33000001311302, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_canil.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_db_schenker.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_den_hartogh.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_eurotainer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_exsif.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_lanfer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_seaco.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tankcon.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tws.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_vtg.mdl", },
+					randomId = 14,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8699998855591, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_canil.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_db_schenker.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_den_hartogh.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_eurotainer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_exsif.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_lanfer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_seaco.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tankcon.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tws.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_vtg.mdl", },
+					randomId = 15,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.9099998474121, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_bertschi3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_canil.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_db_schenker.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_den_hartogh.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_eurotainer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_exsif.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_hoyer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_lanfer.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_rinnen2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_seaco.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_stolt.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tankcon.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_tws.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch2.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_van_den_bosch3.mdl", "asset/container_mw/tanktainer_20ft/tanktainer_20ft_vtg.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_bertschi.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_bertschi2.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_bertschi3.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_bertschi4.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_canil.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_canil2.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_den_hartogh.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_exsif.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_hessers.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_hoyer.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_lanfer.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_lanfer2.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_rinnen.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_tankcon.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_tws.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_van_den_bosch.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_van_den_bosch2.mdl", "asset/container_mw/tanktainer_26ft/tanktainer_26ft_vtg.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_bertschi.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_bertschi2.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_bertschi3.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_den_hartogh.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_hs.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_lanfer.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_rinnen.mdl", "asset/container_mw/tanktainer_26ft_v2/tanktainer_26ft_v2_vtg.mdl", },
+					randomId = 16,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi2.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi3.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn2.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_danzas.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_nb.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_schenker.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_sitra.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_van_den_bosch.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_vos.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_combipass.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_nb.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_vos.mdl", },
+					randomId = 17,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9500000476837, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_bertschi2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_combipass.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_nb.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_railsea2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_sitra2.mdl", "asset/container_mw/tankcontainer_30ft/tankcontainer_30ft_vos.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi2.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bertschi3.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_bruhn2.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_danzas.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_nb.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_schenker.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_sitra.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_van_den_bosch.mdl", "asset/container_mw/silocontainer_30ft/silocontainer_30ft_vos.mdl", },
+					randomId = 18,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1849999427795, 0, 1.2400000095367, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bertschi2.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_bruhn.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_eimskip.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_greiwing.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_hoyer.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_tradelog.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_van_den_bosch2.mdl", "asset/container_mw/tankcontainer_40ft/tankcontainer_40ft_weiss.mdl", },
+					randomId = 19,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.34999999403954, 0, 1.25, 1, },
+				},
+				{
+					group = 0,
+					models = { "asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_sae.mdl", "asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_wetron.mdl", "asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_winner.mdl", "asset/trailer_mw/trailerAlt_typ90s/beladung/trailerAlt3_gruber3.mdl", },
+					randomId = 20,
+					transf = { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -1.0800000429153, 0, 0.33000001311302, 1, },
+				},
+			},
+		},
+		cost = {
+			price = -1,
+			priceScale = 0.2,
+		},
+		description = {
+			description = _("t3_wagen_desc"),
+			name = _("Sdgmns 743 (ÖBB) [2006]"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 292200,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			blinkInterval = 500,
+			configs = {
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 1, 2, },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					blinkLightsLeft0 = { },
+					blinkLightsLeft1 = { },
+					blinkLightsRight0 = { },
+					blinkLightsRight1 = { },
+					blinkingLights0 = { },
+					blinkingLights1 = { },
+					brakeLights = { },
+					fakeBogies = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+			},
+			engines = { },
+			soundSet = {
+				horn = "",
+				name = "mw_container",
+			},
+			topSpeed = 33.299999237061,
+			weight = 21,
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 4,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+
+													{ 0, 1, 7, 8, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 2, 7, 9, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 3, 10, 8, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 4, 11, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 5, 12, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 5, 6, 13, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 5, 6, 20, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "GOODS",
+								},
+							},
+							toHide = { },
+						},
+
+
+
+
+						{
+							cargoEntries = {
+								{
+									capacity = 4,
+									customCargoModels = {
+										configurations = {
+											{
+												slotLevels = {
+
+													{ 0, 1, 7, 8, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 2, 7, 9, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 3, 10, 8, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 4, 11, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 0, 5, 12, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 5, 6, 13, },
+												},
+											},
+											{
+												slotLevels = {
+
+													{ 5, 6, 20, },
+												},
+											},
+										},
+									},
+									seats = { },
+									type = "TOOLS",
+								},
+							},
+							toHide = { },
+						},
+
+
+
+
+
+
+					},
+				},
+			},
+			groupFileName = "vehicle/waggon/t3_taschenwagen/t1t3_menu_fake.mdl",
+			loadSpeed = 4,
+			multipleUnitOnly = false,
+			reversible = false,
+		},
+	},
+	version = 1,
+}
+end

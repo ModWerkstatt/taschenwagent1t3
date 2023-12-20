@@ -1,0 +1,74 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.0500001907349, 1.210000038147, 2.5999999046326, },
+		bbMin = { -9.0500001907349, -1.210000038147, 0, },
+	},
+	collider = {
+		params = {			
+		},
+		type = "MESH",		
+	},
+	lods = {
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_stutzbock_lod0.msh",
+						name = "bandion_mesh_t3_stutzbock",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.3, 0, 0.05, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 200,
+			}, 
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_stutzbock_lod1.msh",
+						name = "bandion_mesh_t3_stutzbock",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, -3, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 200,
+			visibleTo = 500,			
+			}, 
+			{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_stutzbock_lod2.msh",
+						name = "bandion_mesh_t3_stutzbock",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.5, 0, -3, 1, },
+					},
+				},
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 	},				
+			},
+			static = false,
+			visibleFrom = 500,
+			visibleTo = 1500,			
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1973,
+			yearTo = 0,
+		},
+		maintenance = {
+			lifespan = 0,
+			runningCosts = 0,
+		},
+	},
+	version = 1,	
+}
+end

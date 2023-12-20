@@ -1,0 +1,604 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 9.2033977508545, 1.7296047210693, 6.5974626541138, },
+		bbMin = { -9.2033977508545, -1.7296047210693, 0.22511386871338, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 9.2033977508545, 1.7296047210693, 3.1861743927002, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod0.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kupplung_lod0.msh",
+						name = "bandion_mesh_t3_kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod0.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod0.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_halter_lod0.msh",
+						name = "bandion_mesh_t3_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod0.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod0.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod0.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenTank_lod0.msh",
+						name = "bandion_mesh_t3_innenTank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenseite_lod0.msh",
+						name = "bandion_mesh_t3_innenseite",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kegp_lod0.msh",
+						name = "bandion_mesh_t3_kegp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_seilhaken_lod0.msh",
+						name = "bandion_mesh_t3_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_tritt_lod0.msh",
+						name = "bandion_mesh_t3_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_trittBig_lod0.msh",
+						name = "bandion_mesh_t3_trittBig",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bogen_lod0.msh",
+						name = "bandion_mesh_t3_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bedienbar_lod0.msh",
+						name = "bandion_mesh_t3_bedienbar",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hmKeineAhnung_lod0.msh",
+						name = "bandion_mesh_t3_hmKeineAhnung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod0.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_klapp_lod0.msh",
+						name = "bandion_mesh_t3_klapp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dinger_lod0.msh",
+						name = "bandion_mesh_t3_dinger",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_zettel_lod0.msh",
+						name = "bandion_mesh_t3_zettel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hb_lod0.msh",
+						name = "bandion_mesh_t3_hb2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_strebenModern_lod0.msh",
+						name = "bandion_mesh_t3_strebenOld",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_rohre_lod0.msh",
+						name = "bandion_mesh_t3_rohreModern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/handbremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod0.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 74,
+		},
+		{
+			node = {
+				children = {
+
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8819999694824, -0.9549999833107, 1.3300000429153, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/modwerkstatt_basis/zugschluss.mtl", },
+						mesh = "vehicle/waggon/modwerkstatt_basis/zugschluss/zugschluss_de_lod0.msh",
+						name = "zugschluss_de_front",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.8819999694824, 0.9549999833107, 1.3300000429153, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod1.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod1.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod1.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_halter_lod1.msh",
+						name = "bandion_mesh_t3_halter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod1.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod1.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod1.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenTank_lod1.msh",
+						name = "bandion_mesh_t3_innenTank",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_innenseite_lod1.msh",
+						name = "bandion_mesh_t3_innenseite",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_kegp_lod1.msh",
+						name = "bandion_mesh_t3_kegp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_seilhaken_lod1.msh",
+						name = "bandion_mesh_t3_seilhaken",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_tritt_lod1.msh",
+						name = "bandion_mesh_t3_tritt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_trittBig_lod1.msh",
+						name = "bandion_mesh_t3_trittBig",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_bogen_lod1.msh",
+						name = "bandion_mesh_t3_bogen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod1.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_klapp_lod1.msh",
+						name = "bandion_mesh_t3_klapp",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dinger_lod1.msh",
+						name = "bandion_mesh_t3_dinger",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_zettel_lod1.msh",
+						name = "bandion_mesh_t3_zettel",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_hb_lod1.msh",
+						name = "bandion_mesh_t3_hb2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_strebenModern_lod1.msh",
+						name = "bandion_mesh_t3_strebenOld",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_rohre_lod1.msh",
+						name = "bandion_mesh_t3_rohreModern",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 74,
+			visibleTo = 250,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod2.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_unterbanu.001_lod2.msh",
+						name = "bandion_mesh_t3_unterbanu",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_puffer_lod2.msh",
+						name = "bandion_mesh_t3_puffer",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_dickeStangen_lod2.msh",
+						name = "bandion_mesh_t3_dickeStangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_mitte_lod2.msh",
+						name = "bandion_mesh_t3_mitte",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod2.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_gelander_lod2.msh",
+						name = "bandion_mesh_t3_gelander",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/zweite_bremse_lod1.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 250,
+			visibleTo = 650,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_body_lod3.msh",
+						name = "bandion_mesh_t3_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/waggon/t3_taschenwagen/T3_kombiwaggon.mtl", },
+						mesh = "vehicle/waggon/t3_taschenwagen/bandion_mesh_t3_platten_lod3.msh",
+						name = "bandion_mesh_t3_platten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.6500000953674, 0, 0, 1, },
+					},
+					{
+						children = {
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_achse_920mm_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.89999997615814, 0, 0.45162001252174, 1, },
+							},
+							{
+								materials = { "vehicle/waggon/modwerkstatt_basis/dg_ba_y25_lss.mtl", },
+								mesh = "vehicle/waggon/modwerkstatt_basis/dg_ba_y25/db_ba_y25_lss/dg_ba_y25_lss_lod2.msh",
+								transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+							},
+						},
+						name = "RootNode",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.6500000953674, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 650,
+			visibleTo = 2000,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end
