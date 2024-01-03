@@ -924,9 +924,9 @@ return {
 			then
 				table.insert(result.models, {id = assetmodel.getValue(params),transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, trax, 0, height, 1 }),} )	
 				---Load
-			table.insert(result.models, {id = model_beladen_values[math.random(86, 127)],
+			table.insert(result.models, {id = model_beladen_values[math.random(86, 124)],
 			transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, -3.7200000286102 + trax, 0, 1.2699999809265 + height, 1, }),} )	
-			table.insert(result.models, {id = model_beladen_values[math.random(86, 127)],
+			table.insert(result.models, {id = model_beladen_values[math.random(86, 124)],
 			transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 3.7200000286102 + trax, 0, 1.2699999809265 + height, 1, }),} )				
 			table.insert(result.models, {id = model_beladen_values[493],
 			transf = constructionutil.rotateTransf(params, { 1, 0, 0, 0, -0, 1, 0, 0, 0, -0, 1, 0, 0 + trax, 0, -1.8099999427795 + height, 1, }),} )				
